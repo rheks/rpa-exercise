@@ -428,7 +428,7 @@
           <av:Size x:Key="ShapeSize">200,92</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Exercise1" sap:VirtualizedContainerService.HintSize="980,4175" sap2010:WorkflowViewState.IdRef="Sequence_16">
+      <Sequence DisplayName="Exercise1" sap:VirtualizedContainerService.HintSize="980.0000000000001,4313" sap2010:WorkflowViewState.IdRef="Sequence_16">
         <Sequence.Variables>
           <Variable x:TypeArguments="si:FileInfo" Name="fileDownloaded" />
           <Variable x:TypeArguments="ui:WorkbookApplication" Name="dtChallenge" />
@@ -496,6 +496,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:BrowserScope>
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="918,98" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="Berhasil di pindah" />
         <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="918,3018" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" Workbook="[dtChallenge]" WorkbookPath="Data\challenge.xlsx">
           <ui:ExcelApplicationScope.Body>
             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
